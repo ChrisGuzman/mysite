@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<title>Chris Guzman's Resume</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Lato" rel="stylesheet">
 	</head>
 
 	<body>
@@ -10,22 +14,28 @@
 
 		<h2>Abstract</h2>
 
-		<p>Chris Guzman is an engineer who thinks everyone should learn to code.</p>
+		<p id="abstract" class="mission-statement">Chris Guzman is an engineer who thinks everyone should <span id="emphasize-learn-to-code">learn to code.</span></p>
 
 		<h3>Mission Statements</h3>
 
-		<p>He volunteers in his off time.</p>
+		<div class="mission-statement">
+			
+			<p id="volunteer-info">He volunteers in his off time.</p>
 
-		<p>He helps run the Baltimore Hackathon.</p>
+			<p id="hackathon-info">He helps run the Baltimore Hackathon.</p>
 
-		<img src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore Logo">
+		</div>
 
-		<!-- <img src="me.png"> -->
+		<div>
+			<img src="https://betamore.com/wp-content/uploads/2013/04/logo.png" alt="Betamore Logo">
+		</div>
+
+		<img src="me.png">
 
 		
 		<!-- TODO: Add more stuff -->
 		<h6>My accomplishments</h6>
-		<ol>
+		<ol id="accomplishment-list">
 			<li>1st in my class at Clown College</li>
 			<li>Made a website</li>
 			<li>Drinks soda</li>
@@ -37,6 +47,7 @@
 			</ul>
 		</ol>
 
+		<!-- table resume -->
 		<table>
 			<tr>
 				<th>Employer</th>
@@ -47,12 +58,10 @@
 				<td>2014 - Current</td>
 			</tr>
 			<tr>
-				<td>BNI</td>
+				<td>BNI &copy</td>
 				<td>Volunteer Coordinator</td>
 			</tr>
 		</table>
-
-
 
 	</body>
 </html>

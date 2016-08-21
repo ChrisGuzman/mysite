@@ -1,0 +1,82 @@
+body {
+	margin: auto;
+  	width: 75%;
+	background-color: #dfd4c9;
+}
+
+h1, h2, p {
+  	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	padding: 50px 20px 10px 45px;
+
+}
+
+li {
+	font-style: italic;
+}
+
+p {
+  background-color: #3ebf4d;
+  font-family:"Arial",sans-serif;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+h6 {
+	font-size: 1.4em;
+}
+
+.mission-statement {
+	font-size: 200%;
+}
+
+#abstract {
+	font-style: italic;
+}
+
+div {
+
+}
+
+#emphasize-learn-to-code {
+	text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  
+}
+
+td {
+	border: 1px solid #ff0000;
+	padding: 10%;
+}
+
+th {
+	border: 5px dashed #ff0033;	
+}
+
+#accomplishment-list{
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+#hackathon-info {
+	margin-left: auto;
+  	margin-right: 5px;
+  	width: 500px;
+  	display: inline-block;
+}
+
+#volunteer-info {
+	margin-right: auto;
+  	margin-left: 5px;
+  	width: 500px;
+  	display: inline-block;
+}
